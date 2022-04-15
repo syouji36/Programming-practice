@@ -1,0 +1,22 @@
+.container {
+    text-align: center;
+    background-color: aqua;
+    padding: 50px;
+}
+.container p{
+    font-size: 30px;
+}
+.buttons {
+    margin: 30px auto;
+}
+.buttons ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.buttons a{
+    margin: 0 20px;
+    padding: 20px;
+    background-color: aquamarine;
+    text-decoration: none;
+}
