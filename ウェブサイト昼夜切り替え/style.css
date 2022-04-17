@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 1.5s ease-in-out;
+    color: black;
+    background-color: white;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 4rem;
+}
+
+#js-logo {
+    width: 30px;
+    cursor: pointer;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    z-index: -1;
+}
+
+main h1 {
+    font-size: 4rem;
+    padding: 0 10%;
+}
